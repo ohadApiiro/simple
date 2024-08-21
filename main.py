@@ -9,6 +9,7 @@ class Matoki:
 def func(s):
     print(s)
 if __name__ == '__main__':
+    func('bla')
     metikut = Matoki()
     metikut.foo('matoki', 1)
 
