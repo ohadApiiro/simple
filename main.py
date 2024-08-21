@@ -6,8 +6,10 @@ class Matoki:
     def foo(self, s, x):
         print(f'{s} {x}')
 
-
+def func(s):
+    print(s)
 if __name__ == '__main__':
     metikut = Matoki()
     metikut.foo('matoki', 1)
+
 
